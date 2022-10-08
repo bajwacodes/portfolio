@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  background-color: #be3144;
+}
+
+ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  padding-right: 45px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#intro{
+  background-color: #18211C;
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+  
+}
+
+#intro > h1{
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 12rem;
+}
+
+#intro > p{
+  color: CF007E;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.project-section{
+  background-color: #45567d;
+  width: 100%;
+  height: 60rem;
+}
+
+.project-section > h2{
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 60px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+#projects{
+  margin-top: -2rem;
+  overflow: hidden;
+
+}
+
+#tribute{
+  width: 100%;
+  padding-top: 1rem;
+}
+
+
+
+#trib{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  background-color: #18211C;
+}
+
+.test-1{
+  display: flex;
+}
+
+.test-2{
+  display: flex;
+}
+
+#norman{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#hezag{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#peter{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#globe{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#wiki{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#tic{
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+#contact-me{
+  margin-top: 0;
+  border-bottom: 1px solid #be3144;
+}
+
+#last-div{
+  width: 100%;
+  height: 50%;
+  background-color: #18211C;
+  color: white;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 0;
+}
+
+#last-div > h2{
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+}
+
+#last-div > p{
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+}
+
+footer{
+  color: white;
+  background-color: #18211C;
+  height: 4rem;
+  margin-top: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    color: lightblue;
+  }
+}
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #be3144;
+}
